@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Dancing+Script:wght@700&family=Delicious+Handrawn&family=Farsan&family=Geologica:wght@300&family=Josefin+Sans:wght@100;500&family=Lato&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=Oswald:wght@300;400;700&family=Poppins:ital,wght@1,300&family=Raleway:ital,wght@0,100;1,100&family=Roboto:ital,wght@0,100;0,900;1,300&family=Sigmar&family=Smokum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgba(255, 166, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo span{
+    color: #000;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main{
+    height: calc(75vh - 80px);
+    background-color: #333;
+    background-image: url(../images/llaves-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 5px #fff;
+}
+
+h1{
+    color: orange;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #000;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.call a:hover{
+    background-color: #333;
+}
+h2{
+    background-color:  rgba(255, 166, 0, 0.388);
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+section{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 150px;
+    height: 225px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px solid orange;
+}
+
+.card-img{
+    height: 100px;
+    background-image: url(../images/5fd2be647acf0.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-title{
+    color: orange;
+    font-size: 20px;
+}
+
+.card-subtitle{
+    font-size: 25px;
+}
+
+
